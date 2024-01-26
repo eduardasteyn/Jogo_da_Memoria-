@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26C62012B60E99A0008DC02 /* JogoDaMemoriaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C62002B60E99A0008DC02 /* JogoDaMemoriaApp.swift */; };
+		A26C62032B60E99A0008DC02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C62022B60E99A0008DC02 /* ContentView.swift */; };
+		A26C62052B60E99B0008DC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26C62042B60E99B0008DC02 /* Assets.xcassets */; };
+		A26C62092B60E99B0008DC02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26C62082B60E99B0008DC02 /* Preview Assets.xcassets */; };
+		A26C62132B60E99B0008DC02 /* JogoDaMemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C62122B60E99B0008DC02 /* JogoDaMemoriaTests.swift */; };
+		A26C621D2B60E99B0008DC02 /* JogoDaMemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C621C2B60E99B0008DC02 /* JogoDaMemoriaUITests.swift */; };
+		A26C621F2B60E99B0008DC02 /* JogoDaMemoriaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C621E2B60E99B0008DC02 /* JogoDaMemoriaUITestsLaunchTests.swift */; };
+		A26C622E2B633A660008DC02 /* Memoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C622D2B633A660008DC02 /* Memoria.swift */; };
+		A26C62302B633D400008DC02 /* EmojiMemoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C622F2B633D400008DC02 /* EmojiMemoria.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A26C620F2B60E99B0008DC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26C61F52B60E99A0008DC02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26C61FC2B60E99A0008DC02;
+			remoteInfo = JogoDaMemoria;
+		};
+		A26C62192B60E99B0008DC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26C61F52B60E99A0008DC02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26C61FC2B60E99A0008DC02;
+			remoteInfo = JogoDaMemoria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A26C61FD2B60E99A0008DC02 /* JogoDaMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogoDaMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C62002B60E99A0008DC02 /* JogoDaMemoriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaMemoriaApp.swift; sourceTree = "<group>"; };
+		A26C62022B60E99A0008DC02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A26C62042B60E99B0008DC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26C62062B60E99B0008DC02 /* JogoDaMemoria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JogoDaMemoria.entitlements; sourceTree = "<group>"; };
+		A26C62082B60E99B0008DC02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A26C620E2B60E99B0008DC02 /* JogoDaMemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoDaMemoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C62122B60E99B0008DC02 /* JogoDaMemoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaMemoriaTests.swift; sourceTree = "<group>"; };
+		A26C62182B60E99B0008DC02 /* JogoDaMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoDaMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26C621C2B60E99B0008DC02 /* JogoDaMemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaMemoriaUITests.swift; sourceTree = "<group>"; };
+		A26C621E2B60E99B0008DC02 /* JogoDaMemoriaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaMemoriaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A26C622D2B633A660008DC02 /* Memoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoria.swift; sourceTree = "<group>"; };
+		A26C622F2B633D400008DC02 /* EmojiMemoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoria.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26C61FA2B60E99A0008DC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26C620B2B60E99B0008DC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26C62152B60E99B0008DC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26C61F42B60E99A0008DC02 = {
+			isa = PBXGroup;
+			children = (
+				A26C61FF2B60E99A0008DC02 /* JogoDaMemoria */,
+				A26C62112B60E99B0008DC02 /* JogoDaMemoriaTests */,
+				A26C621B2B60E99B0008DC02 /* JogoDaMemoriaUITests */,
+				A26C61FE2B60E99A0008DC02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26C61FE2B60E99A0008DC02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26C61FD2B60E99A0008DC02 /* JogoDaMemoria.app */,
+				A26C620E2B60E99B0008DC02 /* JogoDaMemoriaTests.xctest */,
+				A26C62182B60E99B0008DC02 /* JogoDaMemoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26C61FF2B60E99A0008DC02 /* JogoDaMemoria */ = {
+			isa = PBXGroup;
+			children = (
+				A26C62002B60E99A0008DC02 /* JogoDaMemoriaApp.swift */,
+				A26C62022B60E99A0008DC02 /* ContentView.swift */,
+				A26C62042B60E99B0008DC02 /* Assets.xcassets */,
+				A26C62062B60E99B0008DC02 /* JogoDaMemoria.entitlements */,
+				A26C62072B60E99B0008DC02 /* Preview Content */,
+				A26C622D2B633A660008DC02 /* Memoria.swift */,
+				A26C622F2B633D400008DC02 /* EmojiMemoria.swift */,
+			);
+			path = JogoDaMemoria;
+			sourceTree = "<group>";
+		};
+		A26C62072B60E99B0008DC02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A26C62082B60E99B0008DC02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A26C62112B60E99B0008DC02 /* JogoDaMemoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A26C62122B60E99B0008DC02 /* JogoDaMemoriaTests.swift */,
+			);
+			path = JogoDaMemoriaTests;
+			sourceTree = "<group>";
+		};
+		A26C621B2B60E99B0008DC02 /* JogoDaMemoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A26C621C2B60E99B0008DC02 /* JogoDaMemoriaUITests.swift */,
+				A26C621E2B60E99B0008DC02 /* JogoDaMemoriaUITestsLaunchTests.swift */,
+			);
+			path = JogoDaMemoriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26C61FC2B60E99A0008DC02 /* JogoDaMemoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26C62222B60E99B0008DC02 /* Build configuration list for PBXNativeTarget "JogoDaMemoria" */;
+			buildPhases = (
+				A26C61F92B60E99A0008DC02 /* Sources */,
+				A26C61FA2B60E99A0008DC02 /* Frameworks */,
+				A26C61FB2B60E99A0008DC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JogoDaMemoria;
+			productName = JogoDaMemoria;
+			productReference = A26C61FD2B60E99A0008DC02 /* JogoDaMemoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A26C620D2B60E99B0008DC02 /* JogoDaMemoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26C62252B60E99B0008DC02 /* Build configuration list for PBXNativeTarget "JogoDaMemoriaTests" */;
+			buildPhases = (
+				A26C620A2B60E99B0008DC02 /* Sources */,
+				A26C620B2B60E99B0008DC02 /* Frameworks */,
+				A26C620C2B60E99B0008DC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26C62102B60E99B0008DC02 /* PBXTargetDependency */,
+			);
+			name = JogoDaMemoriaTests;
+			productName = JogoDaMemoriaTests;
+			productReference = A26C620E2B60E99B0008DC02 /* JogoDaMemoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A26C62172B60E99B0008DC02 /* JogoDaMemoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26C62282B60E99B0008DC02 /* Build configuration list for PBXNativeTarget "JogoDaMemoriaUITests" */;
+			buildPhases = (
+				A26C62142B60E99B0008DC02 /* Sources */,
+				A26C62152B60E99B0008DC02 /* Frameworks */,
+				A26C62162B60E99B0008DC02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26C621A2B60E99B0008DC02 /* PBXTargetDependency */,
+			);
+			name = JogoDaMemoriaUITests;
+			productName = JogoDaMemoriaUITests;
+			productReference = A26C62182B60E99B0008DC02 /* JogoDaMemoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26C61F52B60E99A0008DC02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A26C61FC2B60E99A0008DC02 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A26C620D2B60E99B0008DC02 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A26C61FC2B60E99A0008DC02;
+					};
+					A26C62172B60E99B0008DC02 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A26C61FC2B60E99A0008DC02;
+					};
+				};
+			};
+			buildConfigurationList = A26C61F82B60E99A0008DC02 /* Build configuration list for PBXProject "JogoDaMemoria" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A26C61F42B60E99A0008DC02;
+			productRefGroup = A26C61FE2B60E99A0008DC02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26C61FC2B60E99A0008DC02 /* JogoDaMemoria */,
+				A26C620D2B60E99B0008DC02 /* JogoDaMemoriaTests */,
+				A26C62172B60E99B0008DC02 /* JogoDaMemoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26C61FB2B60E99A0008DC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26C62092B60E99B0008DC02 /* Preview Assets.xcassets in Resources */,
+				A26C62052B60E99B0008DC02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26C620C2B60E99B0008DC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26C62162B60E99B0008DC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26C61F92B60E99A0008DC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26C622E2B633A660008DC02 /* Memoria.swift in Sources */,
+				A26C62032B60E99A0008DC02 /* ContentView.swift in Sources */,
+				A26C62012B60E99A0008DC02 /* JogoDaMemoriaApp.swift in Sources */,
+				A26C62302B633D400008DC02 /* EmojiMemoria.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26C620A2B60E99B0008DC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26C62132B60E99B0008DC02 /* JogoDaMemoriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26C62142B60E99B0008DC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26C621D2B60E99B0008DC02 /* JogoDaMemoriaUITests.swift in Sources */,
+				A26C621F2B60E99B0008DC02 /* JogoDaMemoriaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A26C62102B60E99B0008DC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26C61FC2B60E99A0008DC02 /* JogoDaMemoria */;
+			targetProxy = A26C620F2B60E99B0008DC02 /* PBXContainerItemProxy */;
+		};
+		A26C621A2B60E99B0008DC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26C61FC2B60E99A0008DC02 /* JogoDaMemoria */;
+			targetProxy = A26C62192B60E99B0008DC02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A26C62202B60E99B0008DC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A26C62212B60E99B0008DC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A26C62232B60E99B0008DC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JogoDaMemoria/JogoDaMemoria.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JogoDaMemoria/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduarda-Gislon.JogoDaMemoria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A26C62242B60E99B0008DC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JogoDaMemoria/JogoDaMemoria.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JogoDaMemoria/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduarda-Gislon.JogoDaMemoria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A26C62262B60E99B0008DC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduarda-Gislon.JogoDaMemoriaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JogoDaMemoria.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JogoDaMemoria";
+			};
+			name = Debug;
+		};
+		A26C62272B60E99B0008DC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduarda-Gislon.JogoDaMemoriaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JogoDaMemoria.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JogoDaMemoria";
+			};
+			name = Release;
+		};
+		A26C62292B60E99B0008DC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduarda-Gislon.JogoDaMemoriaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JogoDaMemoria;
+			};
+			name = Debug;
+		};
+		A26C622A2B60E99B0008DC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduarda-Gislon.JogoDaMemoriaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JogoDaMemoria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26C61F82B60E99A0008DC02 /* Build configuration list for PBXProject "JogoDaMemoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26C62202B60E99B0008DC02 /* Debug */,
+				A26C62212B60E99B0008DC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26C62222B60E99B0008DC02 /* Build configuration list for PBXNativeTarget "JogoDaMemoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26C62232B60E99B0008DC02 /* Debug */,
+				A26C62242B60E99B0008DC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26C62252B60E99B0008DC02 /* Build configuration list for PBXNativeTarget "JogoDaMemoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26C62262B60E99B0008DC02 /* Debug */,
+				A26C62272B60E99B0008DC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26C62282B60E99B0008DC02 /* Build configuration list for PBXNativeTarget "JogoDaMemoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26C62292B60E99B0008DC02 /* Debug */,
+				A26C622A2B60E99B0008DC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26C61F52B60E99A0008DC02 /* Project object */;
+}
