@@ -8,7 +8,7 @@
 import SwiftUI
 
 // Para utilizar minha model Memoria devo dizer qual tipo vou usar para atribuir ao meu CardContent que é um tipo genérico
-struct Memoria<CardContent> {
+struct MemoryGame<CardContent> {
     var cards: Array<Card>
     
     func choose(card: Card) {
@@ -22,8 +22,8 @@ struct Memoria<CardContent> {
             cards.append(Card(content: content, id: pairIndex*2))
             cards.append(Card(content: content, id: pairIndex*2+1))
         }
+        cards.shuffle()
     }
-    
     
     struct Card: Identifiable {
         var isFaceUp: Bool = true

@@ -7,13 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var viewModel: EmojiMemoria
+struct MemoryGameView: View {
+    var viewModel: EmojiMemoryGame
     var body: some View {
-        HStack {
-            ForEach(viewModel.cards) { card in
-                Cardview(card: card).onTapGesture {
-                    viewModel.choose(card: card)
+        VStack {
+            LazyVGrid(columns: [GridItem(), GridItem(), GridItem()]) {
+                ForEach(viewModel.cards) { card in
+                    Cardview(card: card).onTapGesture {
+                        viewModel.choose(card: card)
+                    }
                 }
             }
         }
@@ -24,7 +26,7 @@ struct ContentView: View {
 }
 
 struct Cardview: View {
-    var card: Memoria<String>.Card
+    var card: MemoryGame<String>.Card
     var body: some View {
         ZStack {
             if card.isFaceUp {
@@ -34,10 +36,10 @@ struct Cardview: View {
             } else {
                 RoundedRectangle(cornerRadius: 10.0).fill()
             }
-        }
+        }.frame(height: 100)
     }
 }
 
 #Preview {
-    ContentView(viewModel: EmojiMemoria())
+    MemoryGameView(viewModel: EmojiMemoryGame())
 }
