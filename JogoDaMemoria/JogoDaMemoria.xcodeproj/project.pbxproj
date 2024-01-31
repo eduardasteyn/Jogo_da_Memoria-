@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A26C62012B60E99A0008DC02 /* JogoDaMemoriaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C62002B60E99A0008DC02 /* JogoDaMemoriaApp.swift */; };
-		A26C62032B60E99A0008DC02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C62022B60E99A0008DC02 /* ContentView.swift */; };
+		A26C62032B60E99A0008DC02 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C62022B60E99A0008DC02 /* MemoryGameView.swift */; };
 		A26C62052B60E99B0008DC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26C62042B60E99B0008DC02 /* Assets.xcassets */; };
 		A26C62092B60E99B0008DC02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26C62082B60E99B0008DC02 /* Preview Assets.xcassets */; };
 		A26C62132B60E99B0008DC02 /* JogoDaMemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C62122B60E99B0008DC02 /* JogoDaMemoriaTests.swift */; };
 		A26C621D2B60E99B0008DC02 /* JogoDaMemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C621C2B60E99B0008DC02 /* JogoDaMemoriaUITests.swift */; };
 		A26C621F2B60E99B0008DC02 /* JogoDaMemoriaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C621E2B60E99B0008DC02 /* JogoDaMemoriaUITestsLaunchTests.swift */; };
-		A26C622E2B633A660008DC02 /* Memoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C622D2B633A660008DC02 /* Memoria.swift */; };
-		A26C62302B633D400008DC02 /* EmojiMemoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C622F2B633D400008DC02 /* EmojiMemoria.swift */; };
+		A26C622E2B633A660008DC02 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C622D2B633A660008DC02 /* MemoryGame.swift */; };
+		A26C62302B633D400008DC02 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C622F2B633D400008DC02 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		A26C61FD2B60E99A0008DC02 /* JogoDaMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogoDaMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C62002B60E99A0008DC02 /* JogoDaMemoriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaMemoriaApp.swift; sourceTree = "<group>"; };
-		A26C62022B60E99A0008DC02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A26C62022B60E99A0008DC02 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
 		A26C62042B60E99B0008DC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A26C62062B60E99B0008DC02 /* JogoDaMemoria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JogoDaMemoria.entitlements; sourceTree = "<group>"; };
 		A26C62082B60E99B0008DC02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,8 +47,8 @@
 		A26C62182B60E99B0008DC02 /* JogoDaMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoDaMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26C621C2B60E99B0008DC02 /* JogoDaMemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaMemoriaUITests.swift; sourceTree = "<group>"; };
 		A26C621E2B60E99B0008DC02 /* JogoDaMemoriaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaMemoriaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A26C622D2B633A660008DC02 /* Memoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoria.swift; sourceTree = "<group>"; };
-		A26C622F2B633D400008DC02 /* EmojiMemoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoria.swift; sourceTree = "<group>"; };
+		A26C622D2B633A660008DC02 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		A26C622F2B633D400008DC02 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				A26C62002B60E99A0008DC02 /* JogoDaMemoriaApp.swift */,
-				A26C62022B60E99A0008DC02 /* ContentView.swift */,
+				A26C62022B60E99A0008DC02 /* MemoryGameView.swift */,
 				A26C62042B60E99B0008DC02 /* Assets.xcassets */,
 				A26C62062B60E99B0008DC02 /* JogoDaMemoria.entitlements */,
 				A26C62072B60E99B0008DC02 /* Preview Content */,
-				A26C622D2B633A660008DC02 /* Memoria.swift */,
-				A26C622F2B633D400008DC02 /* EmojiMemoria.swift */,
+				A26C622D2B633A660008DC02 /* MemoryGame.swift */,
+				A26C622F2B633D400008DC02 /* EmojiMemoryGame.swift */,
 			);
 			path = JogoDaMemoria;
 			sourceTree = "<group>";
@@ -265,10 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26C622E2B633A660008DC02 /* Memoria.swift in Sources */,
-				A26C62032B60E99A0008DC02 /* ContentView.swift in Sources */,
+				A26C622E2B633A660008DC02 /* MemoryGame.swift in Sources */,
+				A26C62032B60E99A0008DC02 /* MemoryGameView.swift in Sources */,
 				A26C62012B60E99A0008DC02 /* JogoDaMemoriaApp.swift in Sources */,
-				A26C62302B633D400008DC02 /* EmojiMemoria.swift in Sources */,
+				A26C62302B633D400008DC02 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

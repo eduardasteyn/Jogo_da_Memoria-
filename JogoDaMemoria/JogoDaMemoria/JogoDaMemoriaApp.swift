@@ -11,8 +11,8 @@ import SwiftUI
 struct JogoDaMemoriaApp: App {
     var body: some Scene {
         WindowGroup {
-            let game = EmojiMemoria()
-            ContentView(viewModel: game)
+            let game = EmojiMemoryGame()
+            MemoryGameView(viewModel: game)
         }
     }
 }
