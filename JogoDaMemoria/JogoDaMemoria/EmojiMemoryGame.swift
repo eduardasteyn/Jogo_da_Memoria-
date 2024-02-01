@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-class EmojiMemoryGame {
+class EmojiMemoryGame: ObservableObject {
     // Poderia alterar o nome model para memoria jogo, mas para demonstracao vou deixar model
     private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
@@ -19,7 +19,6 @@ class EmojiMemoryGame {
         }
     }
     
-    
     // MARK: - Acess to the Model
     
     var cards: Array<MemoryGame<String>.Card> {
@@ -28,6 +27,7 @@ class EmojiMemoryGame {
     
     // MARK: - Intent(s)
     func choose(card: MemoryGame<String>.Card) {
+        objectWillChange.send()
         model.choose(card: card)
     }
     
