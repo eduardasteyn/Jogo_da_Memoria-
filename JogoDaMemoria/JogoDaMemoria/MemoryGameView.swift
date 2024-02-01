@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct MemoryGameView: View {
-    var viewModel: EmojiMemoryGame
+    @ObservedObject var viewModel: EmojiMemoryGame
     var body: some View {
-        VStack {
+        HStack {
             LazyVGrid(columns: [GridItem(), GridItem(), GridItem()]) {
                 ForEach(viewModel.cards) { card in
                     Cardview(card: card).onTapGesture {
@@ -19,7 +19,6 @@ struct MemoryGameView: View {
                 }
             }
         }
-        .font(Font.largeTitle)
         .padding()
         .foregroundColor(.orange)
     }
@@ -27,16 +26,33 @@ struct MemoryGameView: View {
 
 struct Cardview: View {
     var card: MemoryGame<String>.Card
+    
     var body: some View {
+        //GeometryReader { geometry in
+        
         ZStack {
             if card.isFaceUp {
-                RoundedRectangle(cornerRadius: 10.0).fill(.white)
-                RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth: 3)
+                RoundedRectangle(cornerRadius: cornerRadius).fill(.white)
+                RoundedRectangle(cornerRadius: cornerRadius).stroke(lineWidth: edgeLineWidth)
                 Text(card.content)
             } else {
-                RoundedRectangle(cornerRadius: 10.0).fill()
+                RoundedRectangle(cornerRadius: cornerRadius).fill()
             }
-        }.frame(height: 100)
+        }
+        .frame(height: 100)
+        .font(Font.system(size: 50))
+        //.font(Font.system(size: fontSize(for: geometry.size))
+        
+        //}
+    }
+    
+    // MARK: - Drawing Constants
+    
+    let cornerRadius: CGFloat = 10.0
+    let edgeLineWidth: CGFloat = 3
+    
+    func fontSize(for size: CGSize) -> CGFloat {
+        min(size.width, size.height) * 0.75
     }
 }
 
