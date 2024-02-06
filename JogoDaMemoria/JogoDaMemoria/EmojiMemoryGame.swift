@@ -12,7 +12,7 @@ class EmojiMemoryGame: ObservableObject {
     // Poderia alterar o nome model para memoria jogo, mas para demonstracao vou deixar model
     private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
-    static func createMemoryGame() -> MemoryGame<String> {
+    private static func createMemoryGame() -> MemoryGame<String> {
         let emojis = Generate().generateRandomEmojis()
         return MemoryGame<String>(numberOfPairsOfCards: emojis.count) { pairIndex in
             return emojis[pairIndex]
