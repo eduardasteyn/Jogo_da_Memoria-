@@ -33,7 +33,6 @@ class EmojiMemoryGame: ObservableObject {
     func resetGame() {
         model = EmojiMemoryGame.createMemoryGame()
     }
-    
 }
 
 struct Generate {
