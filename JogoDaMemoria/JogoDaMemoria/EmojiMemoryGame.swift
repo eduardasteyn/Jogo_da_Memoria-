@@ -10,7 +10,7 @@ import SwiftUI
 
 class EmojiMemoryGame: ObservableObject {
     // Poderia alterar o nome model para memoria jogo, mas para demonstracao vou deixar model
-    private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
+    @Published private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
     private static func createMemoryGame() -> MemoryGame<String> {
         let emojis = Generate().generateRandomEmojis()
@@ -20,7 +20,6 @@ class EmojiMemoryGame: ObservableObject {
     }
     
     // MARK: - Acess to the Model
-    
     var cards: Array<MemoryGame<String>.Card> {
         model.cards
     }
@@ -31,6 +30,9 @@ class EmojiMemoryGame: ObservableObject {
         model.choose(card: card)
     }
     
+    func resetGame() {
+        model = EmojiMemoryGame.createMemoryGame()
+    }
 }
 
 struct Generate {
